@@ -8,6 +8,9 @@ int main(void)
 	printf("%d",&b);
 
 	//swapping..
+        int temp=a;
+        a=b;
+        b=temp;
 
 
 	return 0;
